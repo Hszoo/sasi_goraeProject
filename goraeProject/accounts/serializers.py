@@ -36,5 +36,5 @@ class MypageSerializer(ModelSerializer) :
 
     class Meta : 
         model = UserInfo
-        fields = ['__all__']    
+        fields = ['user', 'nickname', 'profile', 'points', 'count']    
 
